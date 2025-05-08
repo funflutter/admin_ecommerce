@@ -2,7 +2,7 @@ name: ecom_admin
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -54,7 +54,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -76,13 +75,79 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
+  fonts:
+    - family: sans-black
+      fonts:
+        - asset: assets/fonts/DMSans-Black.ttf
+
+    - family: sans-blackItalic
+      fonts:
+        - asset: assets/fonts/DMSans-BlackItalic.ttf
+
+    - family: sans-bold
+      fonts:
+        - asset: assets/fonts/DMSans-Bold.ttf
+
+    - family: sans-boldItalic
+      fonts:
+        - asset: assets/fonts/DMSans-BoldItalic.ttf
+
+    - family: sans-extraBold
+      fonts:
+        - asset: assets/fonts/DMSans-ExtraBold.ttf
+
+    - family: sans-extraBoldItalic
+      fonts:
+        - asset: assets/fonts/DMSans-ExtraBoldItalic.ttf
+
+    - family: sans-extraLight
+      fonts:
+        - asset: assets/fonts/DMSans-ExtraLight.ttf
+
+    - family: sans-extraLightItalic
+      fonts:
+        - asset: assets/fonts/DMSans-ExtraLightItalic.ttf
+
+    - family: sans-italic
+      fonts:
+        - asset: assets/fonts/DMSans-Italic.ttf
+
+    - family: sans-light
+      fonts:
+        - asset: assets/fonts/DMSans-Light.ttf
+
+    - family: sans-lightItalic
+      fonts:
+        - asset: assets/fonts/DMSans-LightItalic.ttf
+
+    - family: sans-medium
+      fonts:
+        - asset: assets/fonts/DMSans-Medium.ttf
+
+    - family: sans-mediumItalic
+      fonts:
+        - asset: assets/fonts/DMSans-MediumItalic.ttf
+
+    - family: sans-regualr
+      fonts:
+        - asset: assets/fonts/DMSans-Regualr.ttf
+
+    - family: sans-semiBold
+      fonts:
+        - asset: assets/fonts/DMSans-SemiBold.ttf
+
+    - family: sans-semiBoldItalic
+      fonts:
+        - asset: assets/fonts/DMSans-SemiBoldItalic.ttf
+
+    - family: sans-thin
+      fonts:
+        - asset: assets/fonts/DMSans-Thin.ttf
+
+    - family: sans-thinItalic
+      fonts:
+        - asset: assets/fonts/DMSans-ThinkItalics.ttf
+
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
