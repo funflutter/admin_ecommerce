@@ -4,11 +4,21 @@ import 'package:google_fonts/google_fonts.dart';
 class MyButton extends StatelessWidget {
   final void Function()? onTap;
   final String text;
+  final TextStyle? style;
+  final double? height;
+  final double? width;
+  final EdgeInsetsGeometry? padding;
+  final Decoration? decoration;
 
   const MyButton({
     super.key,
     required this.onTap,
     required this.text,
+    this.style,
+    this.height,
+    this.width,
+    this.padding,
+    this.decoration,
   });
 
   @override
@@ -16,20 +26,18 @@ class MyButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        padding: EdgeInsets.all(16),
-        width: double.infinity,
-        decoration: BoxDecoration(
-          color: Colors.black,
-          borderRadius: BorderRadius.circular(100),
-        ),
+        height: height,
+        width: width,
+        padding: padding,
+        decoration: decoration,
         child: Text(
-          textAlign: TextAlign.center,
           text,
-          style: GoogleFonts.dmSans(
-            fontSize: 16,
-            color: Colors.white,
-            letterSpacing: -0.6,
-          ),
+          style: style,
+          // GoogleFonts.dmSans(
+          //   fontSize: 16,
+          //   color: Colors.white,
+          //   letterSpacing: -0.6,
+          // ),
         ),
       ),
     );
